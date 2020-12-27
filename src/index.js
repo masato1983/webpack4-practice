@@ -1,3 +1,4 @@
-import helloworld from './hello-world.js';
+import HelloWorldButton from './components/hello-world-button/hello-world-button.js';
 
-helloworld();
+const helloWorldButton = new HelloWorldButton();
+helloWorldButton.render();
