@@ -60,7 +60,6 @@ module.exports = {
       title: 'Hello world',
       description: 'Hello world',
       template: 'src/page-template.hbs',
-      minify: false
     }),
     new ModuleFederationPlugin({
       name: 'HelloWorldApp',
