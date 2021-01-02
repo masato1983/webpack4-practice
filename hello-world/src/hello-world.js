@@ -1,7 +1,6 @@
 import HelloWorldButton from './components/hello-world-button/hello-world-button.js';
 import Heading from './components/heading/heading.js';
 import 'bootstrap';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import './hello-world.scss';
 
 const heading = new Heading();
